@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Phone, Clock, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { MapPin, Phone, Clock, Facebook } from 'lucide-react'
 
 const Footer = () => {
     return (
@@ -20,11 +20,35 @@ const Footer = () => {
                             Enhancing productivity, optimizing resource use, and promoting farm success through expert guidance.
                         </p>
                         <div className="flex items-center gap-4">
-                            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                                <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
-                                    <Icon size={20} />
-                                </a>
-                            ))}
+                            <a
+                                href="https://www.facebook.com/share/17Sv2GpL9W/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors"
+                                aria-label="Facebook"
+                            >
+                                <Facebook size={20} />
+                            </a>
+                            <a
+                                href="https://www.tiktok.com/@rako_foods_gh?_r=1&_t=ZS-93y14i6WItR"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors"
+                                aria-label="TikTok"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    width="20"
+                                    height="20"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    fill="none"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                >
+                                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
 
