@@ -71,19 +71,32 @@ const Services = () => {
                 </div>
             </section>
 
-            {/* Introductory Description */}
-            <section className="py-16 bg-white border-b border-gray-100">
+            {/* Introductory Description Side-by-Side */}
+            <section className="py-24 bg-white">
                 <div className="container mx-auto px-4 md:px-8">
-                    <div className="max-w-4xl mx-auto text-center">
-                        <p className="text-lg sm:text-2xl text-gray-700 leading-relaxed font-medium">
-                            Romab Agri-Consult is dedicated to advancing sustainable agriculture through comprehensive animal production and veterinary services. We specialize in non-traditional agricultural practices, including mushroom cultivation, beekeeping, snail farming, and rabbit rearing. Our expertise extends to efficient irrigation solutions and the cultivation of medicinal plant species, promoting diversified and resilient farming systems. Committed to empowering farmers, we offer training and capacity-building programs to enhance their skills and knowledge for improved productivity and livelihoods.
-                        </p>
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                        {/* Image Side */}
+                        <div className="relative h-[400px] sm:h-[500px] rounded-[3rem] overflow-hidden shadow-2xl border-8 border-primary/5">
+                            <img
+                                src={servicesFeatured}
+                                alt="Expert agricultural guidance in action, showing our team working directly in the field"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+
+                        {/* Text Side */}
+                        <div className="space-y-8">
+                            <h2 className="text-4xl font-extrabold text-primary">Focused on <span className="text-accent">Agricultural Excellence</span></h2>
+                            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed font-medium">
+                                Romab Agri-Consult is dedicated to advancing sustainable agriculture through comprehensive animal production and veterinary services. We specialize in non-traditional agricultural practices, including mushroom cultivation, beekeeping, snail farming, and rabbit rearing. Our expertise extends to efficient irrigation solutions and the cultivation of medicinal plant species, promoting diversified and resilient farming systems. Committed to empowering farmers, we offer training and capacity-building programs to enhance their skills and knowledge for improved productivity and livelihoods.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             {/* Services Grid */}
-            <section className="py-24 bg-white">
+            <section className="py-24 bg-[#F9FAFB]">
                 <div className="container mx-auto px-4 md:px-8">
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {services.map((service, i) => (
@@ -105,15 +118,6 @@ const Services = () => {
                                 </div>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Featured Work Image */}
-            <section className="py-16 sm:py-24 bg-[#F9FAFB]">
-                <div className="container mx-auto px-4 md:px-8">
-                    <div className="relative h-[300px] sm:h-[500px] rounded-3xl sm:rounded-[3rem] overflow-hidden shadow-2xl border-4 sm:border-8 border-white">
-                        <img src={servicesFeatured} alt="Farmer tending to young crops" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </section>
