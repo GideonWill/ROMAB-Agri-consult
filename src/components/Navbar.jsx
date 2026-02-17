@@ -65,7 +65,9 @@ const Navbar = () => {
                         </Link>
                     ))}
                     <a
-                        href="tel:0549978969"
+                        href="https://wa.me/233549978969"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-accent hover:bg-accent/90 text-white px-6 py-2 rounded-full font-bold flex items-center gap-2 transition-transform hover:scale-105"
                     >
                         <Phone size={18} />
@@ -113,7 +115,7 @@ const Navbar = () => {
                     <div className="flex flex-col gap-8 animate-fade-in-up">
                         <div className="h-px bg-white/10 w-full"></div>
                         <div className="grid grid-cols-1 gap-6">
-                            <a href="tel:0549978969" className="flex items-center justify-center gap-4 text-white">
+                            <a href="https://wa.me/233549978969" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-4 text-white">
                                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent">
                                     <Phone size={20} />
                                 </div>

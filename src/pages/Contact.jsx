@@ -59,7 +59,7 @@ const Contact = () => {
                                     <h3 className="text-2xl font-bold text-primary">Call Us</h3>
                                 </div>
                                 <div className="space-y-2">
-                                    <a href="tel:0549978969" className="text-lg font-bold text-gray-700 hover:text-accent transition-colors block">0549978969</a>
+                                    <a href="https://wa.me/233549978969" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-gray-700 hover:text-accent transition-colors block">0549978969</a>
                                     <a href="tel:0506195302" className="text-lg font-bold text-gray-700 hover:text-accent transition-colors block">0506195302</a>
                                 </div>
                             </div>

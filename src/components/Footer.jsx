@@ -84,7 +84,7 @@ const Footer = () => {
                                 <div>
                                     <p className="text-sm font-bold opacity-60 uppercase mb-1">Call Us</p>
                                     <p className="text-lg">
-                                        <a href="tel:0549978969" className="hover:text-accent transition-colors">0549978969</a> / <a href="tel:0506195302" className="hover:text-accent transition-colors">0506195302</a>
+                                        <a href="https://wa.me/233549978969" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">0549978969</a> / <a href="tel:0506195302" className="hover:text-accent transition-colors">0506195302</a>
                                     </p>
                                 </div>
                             </li>
